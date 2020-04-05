@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MaxFlowAlgorithm/Console.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MaxFlowAlgorithm/Console.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MaxFlowAlgorithm/GraphData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MaxFlowAlgorithm/GraphData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MaxFlowAlgorithm/MaxFlowAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MaxFlowAlgorithm/MaxFlowAlgorithm.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GraphData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphData.java" afterDir="false" />
     </list>
@@ -97,7 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585463903217</updated>
       <workItem from="1585463905032" duration="16123000" />
-      <workItem from="1586067290542" duration="1507000" />
+      <workItem from="1586067290542" duration="5747000" />
     </task>
     <servers />
   </component>

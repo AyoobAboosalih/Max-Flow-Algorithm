@@ -192,4 +192,15 @@ public class GraphData {
             {0, 0, 0, 7, 0, 4, 0, 0, 0, 7, 0, 4, 0, 0, 0, 7, 0, 4, 0, 0, 0, 7, 0, 4, 0, 0, 0, 7, 0, 4, 0, 0, 0, 7, 0, 4, 0, 0, 0, 7, 0, 4, 0, 0, 0, 7, 0, 4, 0, 0, 0, 7, 0, 4, 0, 0, 0, 7, 0, 4, 0, 0, 0, 7, 0, 4, 0, 0, 0, 7, 0, 4, 0, 0, 0, 7, 0, 4, 0, 0, 0, 7, 0, 4, 0, 0, 0, 7, 0, 4, 0, 0, 0, 7, 0, 4},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
     };
+
+
+    public void deleteConnection(int[][] graph,int one, int two){
+       if (graph[one][two]== 0){
+           System.out.println("There is no connection between the 2 selected nodes");
+       }
+       else{
+           graph[one][two]= 0;
+           System.out.println("Connection from node: " + one + " to node: " + two + " has been deleted");
+       }
+    }
 }
