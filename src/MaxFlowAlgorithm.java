@@ -94,10 +94,12 @@ public class MaxFlowAlgorithm {
                 residualGraph[v][u] += path_flow;
             }
 
-            // Add path flow to overall flow
-            
+
+            //Showing flow added in each instance
             System.out.println("flow being added in instance " + instance + " is: " + path_flow);
             instance++;
+
+            // Add path flow to overall flow
             max_flow += path_flow;
         }
 
