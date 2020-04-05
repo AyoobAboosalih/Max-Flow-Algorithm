@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a24829e5-576e-4a2c-bbb2-4f5ccf5f1e98" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/MaxFlowAlgorithm/MaxFlowAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MaxFlowAlgorithm/MaxFlowAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GraphData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MaxFlowAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MaxFlowAlgorithm.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +36,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/stdlib-package.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -93,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585463903217</updated>
       <workItem from="1585463905032" duration="16123000" />
-      <workItem from="1586067290542" duration="9874000" />
+      <workItem from="1586067290542" duration="10753000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,10 @@
-import edu.princeton.cs.introcs.Stopwatch;
+// UoW ID:      w1742300
+// Student ID:  2018324
+// Name:        M.A.Y. Aboosalih
 
+
+
+import edu.princeton.cs.introcs.Stopwatch;
 import java.util.Scanner;
 
 public class Console {
