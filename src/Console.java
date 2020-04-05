@@ -124,6 +124,9 @@ public class Console {
                     }
                 case 3:
                     loop = false;
+                default:
+                    System.out.println("Select correct number!");
+                    break;
 
             }
         }
