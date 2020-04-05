@@ -90,7 +90,7 @@ public class Console {
                             System.out.println("Enter the end node: ");
                             endNode = sc.nextInt();
                             gd.deleteConnection(GraphData.graph, initialNode, endNode);
-                            break;
+                            continue;
                         case 2:
                             System.out.println("This graph has 24 nodes, numbered 0-23" + "\n" +
                                     "Enter the initial node: ");
@@ -98,7 +98,7 @@ public class Console {
                             System.out.println("Enter the end node: ");
                             endNode = sc.nextInt();
                             gd.deleteConnection(GraphData.graph, initialNode, endNode);
-                            break;
+                            continue;
                         case 3:
                             System.out.println("This graph has 48 nodes, numbered 0-47" + "\n" +
                                     "Enter the initial node: ");
@@ -106,7 +106,7 @@ public class Console {
                             System.out.println("Enter the end node: ");
                             endNode = sc.nextInt();
                             gd.deleteConnection(GraphData.graph, initialNode, endNode);
-                            break;
+                            continue;
                         case 4:
                             System.out.println("This graph has 96 nodes, numbered 0-95" + "\n" +
                                     "Enter the initial node: ");
@@ -114,7 +114,7 @@ public class Console {
                             System.out.println("Enter the end node: ");
                             endNode = sc.nextInt();
                             gd.deleteConnection(GraphData.graph, initialNode, endNode);
-                            break;
+                            continue;
 
                     }
                 case 3:
