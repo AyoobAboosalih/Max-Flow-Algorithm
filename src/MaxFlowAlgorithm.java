@@ -7,7 +7,6 @@ Available at: https://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum
 
 */
 
-import edu.princeton.cs.introcs.Stopwatch;
 import java.lang.*;
 import java.util.LinkedList;
 
@@ -15,6 +14,7 @@ public class MaxFlowAlgorithm {
 
     //Number of vertices in graph
     static int vertices = 0;
+    // Used to show many instances and amount of flow generated in each instance of reaching the max flow
     static int instance = 1;
 
     /* Returns true if there is a path from source 's' to sink

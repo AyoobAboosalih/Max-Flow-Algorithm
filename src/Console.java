@@ -16,6 +16,7 @@ public class Console {
                 timer.elapsedTime());
     }
 
+    // Main menu to be displayed
     public static void mainMenu() {
         System.out.println("Max Flow Algorithm!!" + "\n" +
                 "Enter 1: To check the max Flow of all available graphs" + "\n" +
@@ -23,6 +24,7 @@ public class Console {
                 "Enter 3: To exit!!");
     }
 
+    // Menu to be displayed when user selects to check the max flow
     public static void maxFlowMenu() {
         System.out.println("Max Flow Algorithm!!" + "\n" +
                 "There are 4 Graphs to choose from each double in size to the previous" + "\n" +
@@ -30,6 +32,7 @@ public class Console {
                 "(1 is the smallest 4 is the largest): ");
     }
 
+    // Menu to be displayed when user selects to delete a connection
     public static void deleteMenu() {
         System.out.println("Delete a Connection!!" + "\n" +
                 "There are 4 Graphs to choose from each double in size to the previous" + "\n" +
@@ -44,6 +47,7 @@ public class Console {
         // Variable to run loop
         boolean loop = true;
 
+        //Scanner to get user inputs
         Scanner sc = new Scanner(System.in);
 
 
@@ -78,6 +82,7 @@ public class Console {
 
                     }
                 case 2:
+                    // Variables used to access point in graph matrix
                     int initialNode;
                     int endNode;
                     deleteMenu();
@@ -119,7 +124,7 @@ public class Console {
                     }
                 case 3:
                     loop = false;
-                    continue;
+
             }
         }
     }

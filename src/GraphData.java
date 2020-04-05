@@ -1,4 +1,6 @@
 public class GraphData {
+
+
     // graph adjacency matrices
 
     static int[][] graph = new int[][]{
@@ -193,8 +195,8 @@ public class GraphData {
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
     };
 
-
-    public void deleteConnection(int[][] graph,int one, int two){
+    //Method to delete a connection within a given graph
+    void deleteConnection(int[][] graph, int one, int two){
        if (graph[one][two]== 0){
            System.out.println("There is no connection between the 2 selected nodes");
        }
